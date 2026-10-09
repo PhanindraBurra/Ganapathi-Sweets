@@ -1,0 +1,392 @@
+/* ==========================================================================
+   RESPONSIVE DESIGN & ACCESSIBILITY STYLESHEET
+   Mobile-First: 360px, 390px, 768px, 1024px, 1440px
+   ========================================================================== */
+
+/* Universal Touch Target Guarantee */
+button, 
+a, 
+.filter-tab, 
+.faq-trigger, 
+.slider-arrow-btn, 
+.fab-btn {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.slider-dot {
+  min-width: 10px !important;
+  min-height: 10px !important;
+  width: 10px !important;
+  height: 10px !important;
+  padding: 0 !important;
+}
+
+.slider-dot.active {
+  min-width: 26px !important;
+  width: 26px !important;
+}
+
+/* ==========================================================================
+   DESKTOP & LARGE SCREENS (Above 1024px)
+   ========================================================================== */
+@media (min-width: 1024px) {
+  .mobile-menu-toggle,
+  .mobile-nav-drawer,
+  .mobile-drawer-overlay {
+    display: none !important;
+  }
+}
+
+/* ==========================================================================
+   TABLET LANDSCAPE & NOTEBOOK (Max-width: 1024px)
+   ========================================================================== */
+@media (max-width: 1024px) {
+  .nav-menu {
+    display: none; /* Collapses into mobile drawer */
+  }
+
+  .header-actions {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex !important;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-badges-row,
+  .hero-cta-group,
+  .hero-stats-strip {
+    justify-content: center;
+  }
+
+  .hero-description {
+    margin-inline: auto;
+  }
+
+  .hero-slider-wrap {
+    max-width: 640px;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+
+  .about-image-wrapper {
+    max-width: 580px;
+    margin-inline: auto;
+    width: 100%;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ==========================================================================
+   TABLET PORTRAIT (Max-width: 768px)
+   ========================================================================== */
+@media (max-width: 768px) {
+  :root {
+    --section-pad-y: 4rem;
+  }
+
+  .announcement-bar {
+    display: none; /* Hide top bar on mobile for maximum viewport */
+  }
+
+  nav[aria-label="Main Navigation"],
+  .nav-menu,
+  .header-actions {
+    display: none !important;
+  }
+
+  .header-container {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-block: 0.5rem !important;
+    min-height: 56px !important;
+    box-sizing: border-box !important;
+  }
+
+  .brand-link {
+    max-width: calc(100% - 60px) !important;
+    overflow: hidden !important;
+    flex-shrink: 1 !important;
+  }
+
+  .brand-logo-img {
+    height: 32px !important;
+    width: auto !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+  }
+
+  .mobile-menu-toggle {
+    display: flex !important;
+    width: 44px !important;
+    height: 44px !important;
+    flex-shrink: 0 !important;
+    margin-left: auto !important;
+  }
+
+  .hero-badges-row {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .pill-badge,
+  .status-pill {
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: clamp(1.25rem, 4.6vw, 1.65rem) !important;
+    line-height: 1.25 !important;
+    word-break: normal !important;
+    text-align: center;
+  }
+
+  .hero-cta-group {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 12px !important;
+  }
+
+  .hero-cta-group .btn {
+    width: 100% !important;
+  }
+
+  .hero-stats-strip {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1.2rem !important;
+  }
+
+  .hero-stat-item {
+    align-items: center;
+  }
+
+  .about-features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-stamp-badge {
+    width: 90px;
+    height: 90px;
+    bottom: -15px;
+    right: -10px;
+  }
+
+  .stamp-year {
+    font-size: 1.15rem;
+  }
+
+  .map-wrap {
+    min-height: 350px;
+  }
+
+  .map-iframe {
+    min-height: 350px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .floating-actions {
+    bottom: 16px;
+    right: 16px;
+    gap: 10px;
+  }
+
+  .fab-btn {
+    width: 48px;
+    height: 48px;
+  }
+
+  .fab-tooltip {
+    display: none;
+  }
+}
+
+/* ==========================================================================
+   SMARTPHONES (Max-width: 480px / 390px / 360px)
+   ========================================================================== */
+@media (max-width: 480px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-block: 0.5rem;
+    min-height: 58px;
+  }
+
+  .brand-link {
+    max-width: 190px;
+    flex-shrink: 1;
+  }
+
+  .brand-logo-img {
+    max-height: 36px;
+    width: auto;
+  }
+
+  .mobile-menu-toggle {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .container {
+    padding-inline: 1rem;
+  }
+
+  .hero-badges-row {
+    gap: 6px;
+  }
+
+  .pill-badge {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+  }
+
+  .status-pill {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+  }
+
+  .hero-telugu-title {
+    font-size: clamp(1rem, 3.8vw, 1.25rem) !important;
+    line-height: 1.35 !important;
+  }
+
+  .hero-title {
+    font-size: clamp(1.35rem, 5vw, 1.7rem) !important;
+    line-height: 1.25 !important;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .filter-tabs-container {
+    gap: 6px;
+  }
+
+  .filter-tab {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .sweets-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-buttons-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact-buttons-row .btn {
+    width: 100%;
+  }
+
+  .intro-card {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .intro-sanskrit {
+    font-size: 1.35rem;
+  }
+
+  .intro-diya-hanging {
+    display: none; /* Hide hanging diyas on narrow screens to avoid clutter */
+  }
+}
+
+/* Ultra Compact Screens (360px) */
+@media (max-width: 360px) {
+  .brand-link {
+    max-width: 160px;
+  }
+
+  .brand-logo-img {
+    max-height: 32px;
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-stats-strip {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+}
+
+/* ==========================================================================
+   PREFERS REDUCED MOTION (Accessibility standard)
+   ========================================================================== */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .floating-sweets-bg,
+  .marquee-track,
+  .intro-aura,
+  .intro-mandala,
+  .petal,
+  .intro-diya-hanging,
+  .diya-glow,
+  .status-dot,
+  .fab-whatsapp::before {
+    animation: none !important;
+  }
+
+  .hero-slide {
+    transition: opacity 0.2s ease !important;
+  }
+}

@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ganeshaGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="ganeshaRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="100%" stop-color="#BE123C" />
+    </linearGradient>
+    <linearGradient id="haloGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FEF08A" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.2" />
+    </linearGradient>
+  </defs>
+
+  <!-- Golden Halo / Prabhaavali -->
+  <circle cx="100" cy="100" r="92" fill="url(#haloGrad)" stroke="#FDE68A" stroke-width="2" />
+  <circle cx="100" cy="100" r="86" fill="none" stroke="#D97706" stroke-width="1.5" stroke-dasharray="3 4" />
+
+  <!-- Radiating Petals of Divine Halo -->
+  <g stroke="#D97706" stroke-width="1" opacity="0.6">
+    <line x1="100" y1="8" x2="100" y2="16" />
+    <line x1="100" y1="184" x2="100" y2="192" />
+    <line x1="8" y1="100" x2="16" y2="100" />
+    <line x1="184" y1="100" x2="192" y2="100" />
+    <line x1="35" y1="35" x2="41" y2="41" />
+    <line x1="165" y1="35" x2="159" y2="41" />
+    <line x1="35" y1="165" x2="41" y2="159" />
+    <line x1="165" y1="165" x2="159" y2="159" />
+  </g>
+
+  <!-- Crown / Mukut -->
+  <path d="M78 52 L100 18 L122 52 Q100 46 78 52 Z" fill="url(#ganeshaGold)" stroke="#FFFBEB" stroke-width="1" />
+  <polygon points="100,22 93,42 107,42" fill="#FEF08A" />
+  <circle cx="100" cy="18" r="3.5" fill="url(#ganeshaRed)" />
+  <circle cx="90" cy="46" r="2" fill="url(#ganeshaRed)" />
+  <circle cx="100" cy="45" r="2.5" fill="#059669" />
+  <circle cx="110" cy="46" r="2" fill="url(#ganeshaRed)" />
+
+  <!-- Auspicious Forehead Band -->
+  <path d="M70 56 Q100 50 130 56 Q100 60 70 56 Z" fill="url(#ganeshaGold)" />
+
+  <!-- Sacred Trishul / Namam Tilak -->
+  <path d="M96 58 Q100 50 104 58 L102 78 Q100 80 98 78 Z" fill="url(#ganeshaRed)" />
+  <line x1="91" y1="62" x2="95" y2="72" stroke="#FEF08A" stroke-width="2" stroke-linecap="round" />
+  <line x1="109" y1="62" x2="105" y2="72" stroke="#FEF08A" stroke-width="2" stroke-linecap="round" />
+  <circle cx="100" cy="74" r="2" fill="#FEF08A" />
+
+  <!-- Ganapati Large Auspicious Ears -->
+  <!-- Left Ear -->
+  <path d="M70 60 C40 60 34 85 46 106 C56 122 72 120 76 114 C70 100 68 80 70 60 Z" 
+        fill="url(#ganeshaGold)" stroke="#FFFBEB" stroke-width="1" />
+  <path d="M64 74 C50 78 48 92 56 104" stroke="#FEF3C7" stroke-width="1.5" fill="none" />
+
+  <!-- Right Ear -->
+  <path d="M130 60 C160 60 166 85 154 106 C144 122 128 120 124 114 C130 100 132 80 130 60 Z" 
+        fill="url(#ganeshaGold)" stroke="#FFFBEB" stroke-width="1" />
+  <path d="M136 74 C150 78 152 92 144 104" stroke="#FEF3C7" stroke-width="1.5" fill="none" />
+
+  <!-- Head Outline & Cheeks -->
+  <path d="M72 60 Q100 56 128 60 Q136 90 124 115 Q100 125 76 115 Q64 90 72 60 Z" 
+        fill="url(#ganeshaGold)" />
+
+  <!-- Peaceful Meditative Eyes -->
+  <path d="M78 82 Q88 88 94 82" stroke="#3E2723" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <path d="M106 82 Q112 88 122 82" stroke="#3E2723" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Brow arcs -->
+  <path d="M77 77 Q87 72 95 78" stroke="#78350F" stroke-width="1.2" fill="none" stroke-linecap="round" />
+  <path d="M105 78 Q113 72 123 77" stroke="#78350F" stroke-width="1.2" fill="none" stroke-linecap="round" />
+
+  <!-- Sacred Trunk (Vakratunda) Curving Left -->
+  <path d="M95 90 Q100 115 95 135 Q90 152 75 155 Q62 155 60 144 Q58 132 72 130 Q80 130 84 136 Q88 124 90 108 Q92 95 95 90 Z" 
+        fill="url(#ganeshaGold)" stroke="#FFFBEB" stroke-width="1" />
+  <!-- Trunk Ribs / Lines -->
+  <path d="M91 106 Q98 108 97 114" stroke="#FEF3C7" stroke-width="1.5" fill="none" />
+  <path d="M89 118 Q95 120 94 126" stroke="#FEF3C7" stroke-width="1.5" fill="none" />
+  <path d="M82 130 Q88 132 86 137" stroke="#FEF3C7" stroke-width="1.5" fill="none" />
+
+  <!-- Auspicious Single Tusk (Ekadanta) on Right -->
+  <polygon points="112,102 124,106 114,109" fill="#FFFFFF" stroke="#FEF3C7" stroke-width="0.8" />
+  <line x1="88" y1="102" x2="84" y2="105" stroke="#78350F" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Divine Modak Sweet in Trunk Tip -->
+  <g transform="translate(56, 126)">
+    <path d="M12 4 C9 9 4 15 6 20 C7 23 17 23 18 20 C20 15 15 9 12 4 Z" fill="#FDE68A" stroke="#D97706" stroke-width="1" />
+    <path d="M12 5 L12 21" stroke="#D97706" stroke-width="1" />
+    <circle cx="12" cy="10" r="1" fill="#059669" />
+    <circle cx="12" cy="3" r="1.5" fill="url(#ganeshaRed)" />
+  </g>
+
+  <!-- Sacred Pearl Necklace / Garland on Shoulders -->
+  <path d="M60 140 Q100 175 140 140" stroke="#FEF3C7" stroke-width="3" fill="none" stroke-dasharray="1 7" stroke-linecap="round" />
+  <path d="M64 148 Q100 185 136 148" stroke="#D97706" stroke-width="2" fill="none" stroke-dasharray="1 6" stroke-linecap="round" />
+  <circle cx="100" cy="168" r="4" fill="url(#ganeshaRed)" stroke="#FFFBEB" stroke-width="1" />
+</svg>

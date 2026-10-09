@@ -1,0 +1,339 @@
+{
+  "shop": {
+    "name": "Sri Ganapathi Sweet House",
+    "teluguName": "శ్రీ గణపతి స్వీట్ హౌస్",
+    "shortName": "Ganapathi Sweets",
+    "tagline": "Pure Cow Ghee Sweets & Authentic Konaseema Flavors",
+    "teluguTagline": "స్వచ్ఛమైన ఆవు నెయ్యితో తయారైన కోనసీమ మిఠాయిలు",
+    "established": 1994,
+    "rating": 4.6,
+    "reviewCount": 348,
+    "verifiedBadge": "Google Verified Local Sweet Shop",
+    "phones": [
+      {
+        "display": "+91 99858 27779",
+        "raw": "+919985827779",
+        "isPrimary": true,
+        "isWhatsApp": true
+      },
+      {
+        "display": "+91 8856 232779",
+        "raw": "+918856232779",
+        "isPrimary": false,
+        "isWhatsApp": false
+      },
+      {
+        "display": "+91 94401 27779",
+        "raw": "+919440127779",
+        "isPrimary": false,
+        "isWhatsApp": false
+      }
+    ],
+    "whatsapp": {
+      "number": "+919985827779",
+      "display": "+91 99858 27779",
+      "defaultMessage": "Namaste Sri Ganapathi Sweet House! I would like to place an order from your website."
+    },
+    "location": {
+      "landmark": "Near Clock Tower / RTC Bus Stand",
+      "street": "Main Road",
+      "city": "Amalapuram",
+      "district": "Dr. B.R. Ambedkar Konaseema District",
+      "state": "Andhra Pradesh",
+      "pincode": "533201",
+      "country": "India",
+      "fullAddress": "Near Clock Tower / RTC Bus Stand, Main Road, Amalapuram, Dr. B.R. Ambedkar Konaseema District, Andhra Pradesh - 533201",
+      "googleMapsShareUrl": "https://share.google/Qh2YbJJLomYCnVJQV",
+      "googleMapsDirectionsUrl": "https://www.google.com/maps/dir/?api=1&destination=Sri+Ganapathi+Sweet+House+Amalapuram+Andhra+Pradesh",
+      "embedMapUrl": "https://maps.google.com/maps?q=Sri+Ganapathi+Sweet+House+Amalapuram+Clock+Tower&t=&z=16&ie=UTF8&iwloc=&output=embed",
+      "geo": {
+        "latitude": 16.5786,
+        "longitude": 82.0064
+      }
+    },
+    "timing": {
+      "openHour": 8,
+      "closeHour": 22,
+      "days": "Monday – Sunday (All 7 Days)",
+      "display": "8:00 AM – 10:00 PM",
+      "holidays": "Open on all festivals and public holidays"
+    },
+    "about": {
+      "title": "A Legacy of Sweetness in the Heart of Konaseema",
+      "subtitle": "Serving Amalapuram with Pure Cow Ghee and Traditional Recipes for Over 3 Decades",
+      "description": "Welcome to Sri Ganapathi Sweet House, Amalapuram's beloved destination for heritage Andhra sweets and crunchy savouries. Nestled by the vibrant Clock Tower area, we prepare every delicacy using time-honored Konaseema culinary traditions, 100% pure dairy ghee, premium jaggery (bellam), and hand-picked dry fruits. From our famed melt-in-mouth Kaja and whisper-thin Pootharekulu to festive Motichoor Laddus, every bite brings the warmth of East Godavari celebration.",
+      "features": [
+        {
+          "icon": "shield-check",
+          "title": "100% Pure Cow Ghee",
+          "desc": "Made strictly with unadulterated pure cow ghee and natural sweeteners."
+        },
+        {
+          "icon": "sparkles",
+          "title": "Fresh Daily Batches",
+          "desc": "Prepared fresh every morning to ensure unmatched aroma and crisp texture."
+        },
+        {
+          "icon": "gift",
+          "title": "Custom Festival & Bulk Boxes",
+          "desc": "Specially curated gift boxes for weddings, poojas, and celebratory occasions."
+        },
+        {
+          "icon": "heart-handshake",
+          "title": "Konaseema Heritage Recipes",
+          "desc": "Authentic recipes preserved across generations with genuine Godavari love."
+        }
+      ]
+    }
+  },
+  "sweets": [
+    {
+      "id": "kaja",
+      "name": "Kakinada / Madatha Kaja",
+      "teluguName": "కాకినాడ మడత కాజా",
+      "category": "traditional",
+      "price": "₹380 / kg",
+      "tag": "Bestseller",
+      "image": "assets/images/sweet-kaja.webp",
+      "description": "Multi-layered crispy pastry soaked in fragrant cardamom sugar syrup, with a juicy burst in every single bite.",
+      "hoverAnimation": "anim-kaja",
+      "badge": "Signature Special"
+    },
+    {
+      "id": "pootharekulu",
+      "name": "Bellam Dry Fruit Pootharekulu",
+      "teluguName": "బెల్లం డ్రైఫ్రూట్ పూతరేకులు",
+      "category": "traditional",
+      "price": "₹550 / kg",
+      "tag": "Konaseema Pride",
+      "image": "assets/images/sweet-pootharekulu.webp",
+      "description": "Paper-thin wafer rolls made from rice batter, generously filled with organic jaggery, pure ghee, and roasted cashews.",
+      "hoverAnimation": "anim-pootharekulu",
+      "badge": "Godavari Special"
+    },
+    {
+      "id": "laddu",
+      "name": "Ghee Motichoor Laddu",
+      "teluguName": "నెయ్యి మోతీచూర్ లడ్డు",
+      "category": "festival",
+      "price": "₹420 / kg",
+      "tag": "Ganapathi Prasadam",
+      "image": "assets/images/sweet-laddu.webp",
+      "description": "Tiny golden gram-flour pearls fried in pure ghee, bound with rich cardamom syrup, saffron strands, and melon seeds.",
+      "hoverAnimation": "anim-laddu",
+      "badge": "Temple Favorite"
+    },
+    {
+      "id": "mysore-pak",
+      "name": "Special Ghee Mysore Pak",
+      "teluguName": "స్పెషల్ నెయ్యి మైసూర్ పాక్",
+      "category": "traditional",
+      "price": "₹460 / kg",
+      "tag": "Melt-In-Mouth",
+      "image": "assets/images/sweet-mysore-pak.webp",
+      "description": "Luxurious besan sweet with a porous, melt-in-mouth honeycomb texture steeped in golden country ghee.",
+      "hoverAnimation": "anim-mysore-pak",
+      "badge": "Rich & Velvety"
+    },
+    {
+      "id": "jangri",
+      "name": "Golden Saffron Jangri",
+      "teluguName": "బంగారు కుంకుమపువ్వు జాంగ్రీ",
+      "category": "traditional",
+      "price": "₹380 / kg",
+      "tag": "Crisp & Juicy",
+      "image": "assets/images/sweet-jangri.webp",
+      "description": "Intricately swirled urad dal rosettes fried to golden perfection and soaked in rose-infused saffron syrup.",
+      "hoverAnimation": "anim-jangri",
+      "badge": "Traditional"
+    },
+    {
+      "id": "gulab-jamun",
+      "name": "Royal Shahi Gulab Jamun",
+      "teluguName": "షాహీ గులాబ్ జామున్",
+      "category": "traditional",
+      "price": "₹360 / kg",
+      "tag": "Soft & Juicy",
+      "image": "assets/images/sweet-gulab-jamun.webp",
+      "description": "Tender khoya dumplings gently fried and soaked in warm, fragrant cardamom and rose petal sugar nectar.",
+      "hoverAnimation": "anim-gulab-jamun",
+      "badge": "All-Time Favorite"
+    },
+    {
+      "id": "bobbatlu",
+      "name": "Nethi Bobbatlu (Puran Poli)",
+      "teluguName": "స్వచ్ఛమైన నేతి బొబ్బట్లు",
+      "category": "festival",
+      "price": "₹40 / pc",
+      "tag": "Ugadi Special",
+      "image": "assets/images/sweet-bobbatlu.webp",
+      "description": "Traditional thin artisanal flatbreads stuffed with sweet chana dal, jaggery, cardamom, and toasted in pure cow ghee.",
+      "hoverAnimation": "anim-bobbatlu",
+      "badge": "Festive Delight"
+    },
+    {
+      "id": "sunnundalu",
+      "name": "Bellam Sunnundalu (Urad Dal)",
+      "teluguName": "బెల్లం సున్నుండలు",
+      "category": "festival",
+      "price": "₹480 / kg",
+      "tag": "Healthy & Traditional",
+      "image": "assets/images/sweet-sunnundalu.webp",
+      "description": "Nutritious roasted black gram flour hand-rolled with organic bellam and rich farm-fresh cow ghee.",
+      "hoverAnimation": "anim-sunnundalu",
+      "badge": "Super Healthy"
+    },
+    {
+      "id": "ariselu",
+      "name": "Nethi Nuvvula Ariselu",
+      "teluguName": "నేతి నువ్వుల అరిసెలు",
+      "category": "festival",
+      "price": "₹440 / kg",
+      "tag": "Sankranti Special",
+      "image": "assets/images/sweet-ariselu.webp",
+      "description": "Classic festive sweet made with newly harvested rice flour, jaggery syrup, toasted white sesame seeds, and ghee.",
+      "hoverAnimation": "anim-ariselu",
+      "badge": "Winter Classic"
+    },
+    {
+      "id": "halwa",
+      "name": "Godavari Special Badam Halwa",
+      "teluguName": "గోదావరి బాదం హల్వా",
+      "category": "traditional",
+      "price": "₹520 / kg",
+      "tag": "Ultra Rich",
+      "image": "assets/images/sweet-halwa.webp",
+      "description": "Rich golden halwa simmered with crushed California almonds, pure saffron milk, and pure ghee.",
+      "hoverAnimation": "anim-halwa",
+      "badge": "Celebration Favorite"
+    },
+    {
+      "id": "mixture",
+      "name": "Special Konaseema Mixture",
+      "teluguName": "స్పెషల్ కోనసీమ మిక్చర్",
+      "category": "savouries",
+      "price": "₹320 / kg",
+      "tag": "Crunchy & Spicy",
+      "image": "assets/images/sweet-mixture.webp",
+      "description": "Crispy besan sev, boondi, roasted peanuts, cashews, fried curry leaves, and secret Godavari masala blend.",
+      "hoverAnimation": "anim-mixture",
+      "badge": "Evening Snack"
+    },
+    {
+      "id": "chekodilu",
+      "name": "Crispy Ring Chekodilu",
+      "teluguName": "కారపు చెగోడీలు",
+      "category": "savouries",
+      "price": "₹300 / kg",
+      "tag": "Traditional Crunch",
+      "image": "assets/images/sweet-chekodilu.webp",
+      "description": "Crunchy golden ring treats made with rice flour, ajwain, sesame, and mild spices. Perfect with tea.",
+      "hoverAnimation": "anim-chekodilu",
+      "badge": "Teatime Classic"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Suresh",
+      "rating": 5,
+      "date": "2 weeks ago",
+      "verified": true,
+      "text": "Best traditional sweets in Amalapuram! The Madatha Kaja and freshly made Pootharekulu with pure cow ghee are simply unbeatable. Outstanding taste, fresh aroma, and courteous service every time."
+    },
+    {
+      "name": "Lakshmi",
+      "rating": 5,
+      "date": "1 month ago",
+      "verified": true,
+      "text": "Authentic Godavari ruchulu! We ordered bulk gift boxes of Bellam Sunnundalu and Ariselu for our daughter's engagement, and all our guests praised the pure ghee flavor. Highly recommended!"
+    },
+    {
+      "name": "Ramesh",
+      "rating": 5,
+      "date": "3 weeks ago",
+      "verified": true,
+      "text": "The Mysore Pak melts right in your mouth without feeling overly sugary. Very clean, hygienic shop located right in the heart of town near Clock Tower. A must-visit sweet house."
+    },
+    {
+      "name": "Praveen",
+      "rating": 5,
+      "date": "2 months ago",
+      "verified": true,
+      "text": "Ordered special Motichoor Laddu for Vinayaka Chavithi pooja. Truly divine taste with real saffron and dry fruits. Freshness and quality are consistently high here."
+    },
+    {
+      "name": "Bhavani",
+      "rating": 5,
+      "date": "1 month ago",
+      "verified": true,
+      "text": "The dry fruit Bellam Pootharekulu and hot freshly prepared spicy mixture are top-tier. Sri Ganapathi Sweet House preserves authentic Konaseema culinary heritage with pride."
+    },
+    {
+      "name": "Venkatesh",
+      "rating": 5,
+      "date": "Recent",
+      "verified": true,
+      "text": "Whenever I travel from Hyderabad back home to Konaseema, I make sure to stop here to parcel sweets for my colleagues. Outstanding quality, prompt service, and reasonable rates."
+    }
+  ],
+  "gallery": [
+    {
+      "image": "assets/images/sweet-kaja.webp",
+      "title": "Fresh Juicy Madatha Kaja",
+      "caption": "Golden layers drenched in aromatic cardamom syrup"
+    },
+    {
+      "image": "assets/images/sweet-pootharekulu.webp",
+      "title": "Konaseema Pootharekulu",
+      "caption": "Delicate rice wafers layered with ghee & jaggery"
+    },
+    {
+      "image": "assets/images/sweet-laddu.webp",
+      "title": "Ghee Motichoor Laddu",
+      "caption": "Ganapathi's blessed festive prasadam"
+    },
+    {
+      "image": "assets/images/sweet-mysore-pak.webp",
+      "title": "Melt-In-Mouth Mysore Pak",
+      "caption": "Silky golden besan with rich desi ghee"
+    },
+    {
+      "image": "assets/images/sweet-jangri.webp",
+      "title": "Saffron Jangri Spirals",
+      "caption": "Lustrous swirls of festive indulgence"
+    },
+    {
+      "image": "assets/images/sweet-gulab-jamun.webp",
+      "title": "Shahi Gulab Jamun",
+      "caption": "Warm khoya pearls in rose-cardamom nectar"
+    },
+    {
+      "image": "assets/images/sweet-bobbatlu.webp",
+      "title": "Artisanal Nethi Bobbatlu",
+      "caption": "Festive sweet flatbreads roasted in pure ghee"
+    },
+    {
+      "image": "assets/images/sweet-mixture.webp",
+      "title": "Crunchy Konaseema Mixture",
+      "caption": "Spicy roasted cashews, peanuts & crispy sev"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do you deliver sweets outside Amalapuram?",
+      "a": "Yes! We ship well-packaged sweets across Andhra Pradesh and Telangana via courier, and also take WhatsApp orders for home delivery across Amalapuram town."
+    },
+    {
+      "q": "Are all your sweets prepared with pure cow ghee?",
+      "a": "Absolutely. Our ghee sweets are prepared exclusively with unadulterated pure cow ghee and traditional ingredients without artificial flavorings."
+    },
+    {
+      "q": "Can we order customized gift packs for weddings and functions?",
+      "a": "Yes, we specialize in bulk orders, decorative festival boxes, and customized sweet boxes for weddings, housewarmings, and temple events. Contact us on WhatsApp (+91 99858 27779) for special volume pricing."
+    },
+    {
+      "q": "What is the shelf life of Pootharekulu and Kaja?",
+      "a": "Our Pootharekulu stay fresh and crisp for up to 25-30 days when stored in an airtight container at room temperature. Kaja is best enjoyed within 7-10 days."
+    }
+  ]
+}

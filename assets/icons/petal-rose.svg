@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <defs>
+    <radialGradient id="roseGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#FDF2F8" />
+      <stop offset="40%" stop-color="#F472B6" />
+      <stop offset="85%" stop-color="#DB2777" />
+      <stop offset="100%" stop-color="#9D174D" />
+    </radialGradient>
+  </defs>
+  <!-- Delicate Soft Rose Petal -->
+  <path d="M 30 8 
+           C 44 14 52 28 46 42 
+           C 40 52 32 54 30 54 
+           C 28 54 20 52 14 42 
+           C 8 28 16 14 30 8 Z" 
+        fill="url(#roseGrad)" />
+</svg>

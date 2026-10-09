@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="saffronGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#D97706" />
+      <stop offset="100%" stop-color="#B45309" />
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#DB2777" />
+    </linearGradient>
+    <linearGradient id="pistachioGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="creamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFDF9" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <linearGradient id="flameGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="40%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FEF08A" />
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- LOGO EMBLEM / ICON (Left) -->
+  <g transform="translate(10, 10)">
+    <!-- Outer Soft Cream & Gold Circle Frame -->
+    <circle cx="50" cy="50" r="48" fill="url(#creamGrad)" stroke="#FDE68A" stroke-width="2.5" />
+    <circle cx="50" cy="50" r="44" fill="none" stroke="#D97706" stroke-width="1.5" stroke-dasharray="3 3" />
+    
+    <!-- Pistachio Green Aura & Decorative Leaves -->
+    <path d="M50 14 C56 22 56 30 50 36 C44 30 44 22 50 14 Z" fill="url(#pistachioGrad)" opacity="0.85" />
+    <path d="M22 50 C30 44 38 44 44 50 C38 56 30 56 22 50 Z" fill="url(#pistachioGrad)" opacity="0.6" />
+    <path d="M78 50 C70 44 62 44 56 50 C62 56 70 56 78 50 Z" fill="url(#pistachioGrad)" opacity="0.6" />
+
+    <!-- Rose Petal Accents -->
+    <circle cx="28" cy="32" r="3.5" fill="url(#roseGrad)" opacity="0.9" />
+    <circle cx="72" cy="32" r="3.5" fill="url(#roseGrad)" opacity="0.9" />
+    <circle cx="28" cy="68" r="3.5" fill="url(#roseGrad)" opacity="0.9" />
+    <circle cx="72" cy="68" r="3.5" fill="url(#roseGrad)" opacity="0.9" />
+
+    <!-- Traditional Diya Base -->
+    <path d="M30 68 C35 84 65 84 70 68 C62 72 38 72 30 68 Z" fill="url(#saffronGrad)" />
+    <!-- Diya Rim -->
+    <ellipse cx="50" cy="68" rx="20" ry="4.5" fill="#FEF3C7" stroke="#D97706" stroke-width="1" />
+
+    <!-- Sacred Modak / Sweet Silhouette in Center -->
+    <path d="M50 36 C44 46 36 56 38 64 C40 68 60 68 62 64 C64 56 56 46 50 36 Z" 
+          fill="url(#saffronGrad)" stroke="#FFFBEB" stroke-width="1" />
+    <!-- Modak Fluting Lines -->
+    <path d="M50 38 Q48 52 44 64" stroke="#FEF3C7" stroke-width="1.2" fill="none" />
+    <path d="M50 38 Q50 52 50 64" stroke="#FEF3C7" stroke-width="1.2" fill="none" />
+    <path d="M50 38 Q52 52 56 64" stroke="#FEF3C7" stroke-width="1.2" fill="none" />
+    <!-- Silver Foil (Vark) / Pistachio Accent on Modak -->
+    <polygon points="50,44 52,48 48,48" fill="#FFFFFF" opacity="0.9" />
+    <circle cx="50" cy="46" r="1.5" fill="#059669" />
+
+    <!-- Sacred Diya Flame Rising Above Modak -->
+    <path d="M50 20 C53 26 55 29 50 34 C45 29 47 26 50 20 Z" fill="url(#flameGrad)" filter="url(#softGlow)" />
+    <!-- Inner Flame Core -->
+    <ellipse cx="50" cy="28" rx="1.5" ry="3" fill="#FFFFFF" />
+
+    <!-- Little Auspicious Dots -->
+    <circle cx="50" cy="80" r="2" fill="#D97706" />
+  </g>
+
+  <!-- LOGO TYPOGRAPHY (Right) -->
+  <g transform="translate(126, 0)">
+    <!-- Sri in Telugu & Sanskrit Grace -->
+    <text x="0" y="32" font-family="'Cinzel', 'Playfair Display', 'Cinzel Decorative', 'Georgia', serif" font-size="13" font-weight="700" fill="#D97706" letter-spacing="4">
+      SRI • శ్రీ • ESTD 1994
+    </text>
+
+    <!-- Main Title: GANAPATHI -->
+    <text x="0" y="68" font-family="'Cinzel', 'Playfair Display', 'Prata', 'Georgia', serif" font-size="36" font-weight="800" fill="#3E2723" letter-spacing="2">
+      GANAPATHI
+    </text>
+
+    <!-- Decorative Floral Separator -->
+    <line x1="2" y1="78" x2="160" y2="78" stroke="#FDE68A" stroke-width="2" />
+    <circle cx="166" cy="78" r="3" fill="#D97706" />
+    <polygon points="172,78 175,75 178,78 175,81" fill="#F472B6" />
+    <circle cx="184" cy="78" r="3" fill="#D97706" />
+    <line x1="190" y1="78" x2="380" y2="78" stroke="#FDE68A" stroke-width="2" />
+
+    <!-- Subtitle: SWEET HOUSE • AMALAPURAM -->
+    <text x="2" y="99" font-family="'Plus Jakarta Sans', 'Montserrat', 'Inter', sans-serif" font-size="14" font-weight="700" fill="#6D4C41" letter-spacing="5">
+      SWEET HOUSE
+    </text>
+    <text x="200" y="99" font-family="'Plus Jakarta Sans', 'Montserrat', 'Inter', sans-serif" font-size="12" font-weight="600" fill="#059669" letter-spacing="2.5">
+      • AMALAPURAM
+    </text>
+  </g>
+</svg>
